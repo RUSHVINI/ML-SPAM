@@ -1,0 +1,105 @@
+{
+  "total_emails": 7825,
+  "spam_emails": 3000,
+  "legitimate_emails": 4825,
+  "decision_tree": {
+    "model": "Decision Tree",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "confusion_matrix": [
+      [
+        965,
+        0
+      ],
+      [
+        0,
+        600
+      ]
+    ],
+    "cv_accuracy": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_precision": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_recall": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_f1": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  "xgboost": {
+    "model": "XGBoost",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "confusion_matrix": [
+      [
+        965,
+        0
+      ],
+      [
+        0,
+        600
+      ]
+    ],
+    "cv_accuracy": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_precision": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_recall": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "cv_f1": [
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  "label_classes": [
+    "ham",
+    "spam"
+  ],
+  "feature_names": [
+    "word_count",
+    "link_count",
+    "urgency_words",
+    "capital_letters"
+  ]
+}
